@@ -1,0 +1,58 @@
+:root {
+  --bgd: #1c1c27;
+  --bgLightd: #1c1e27;
+  --primaryd: #854ce6;
+  --text-primaryd: #f2f3f4;
+  --text-secondaryd: #b1b2b3;
+  --cardd: #171721;
+  --card-lightd: #191924;
+  --buttond: #854ce6;
+  --white: #ffffff;
+  --black: #000000;
+  --bgl: #ffffff;
+  --bgLightl: #f0f0f0;
+  --primaryl: #be1adb;
+  --text-primaryl: #111111;
+  --text-secondaryl: #48494a;
+  --card: #ffffff;
+  --buttonl: #5c5b5b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px !important;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 80px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #222a35;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #575c66;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #626970;
+}
