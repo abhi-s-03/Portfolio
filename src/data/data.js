@@ -1,3 +1,7 @@
+import flask from "../assets/flask.jpg";
+import vercel from "../assets/vercel.jpg";
+import pandas from "../assets/pandas.jpg";
+
 export const Bio = {
   name: "Abhishek S",
   roles: ["Front-end Developer", "ML Enthusiast", "Programmer"],
@@ -37,20 +41,6 @@ export const skills = [
     ],
   },
   {
-    title: "Backend",
-    skills: [
-      {
-        name: "Flask",
-        image:
-          "https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg",
-      },
-      {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
-    ],
-  },
-  {
     title: "Programming Languages",
     skills: [
       {
@@ -76,6 +66,19 @@ export const skills = [
     ],
   },
   {
+    title: "Backend",
+    skills: [
+      {
+        name: "Flask",
+        image:flask,
+      },
+      {
+        name: "Firebase",
+        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      },
+    ],
+  },
+  {
     title: "Machine Learning",
     skills: [
       {
@@ -85,8 +88,7 @@ export const skills = [
       },
       {
         name: "Pandas",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg",
+        image:pandas,
       },
     ],
   },
@@ -114,8 +116,7 @@ export const skills = [
       },
       {
         name: "Vercel",
-        image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+        image:vercel,
       },
     ],
   },
