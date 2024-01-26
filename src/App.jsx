@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero.jsx";
 import Skill from "./components/skill/Skill.jsx";
 import Edu from "./components/education/Edu.jsx";
 import Exp from "./components/exp/Exp.jsx";
+import Project from "./components/project/Project.jsx";
 
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
             <Exp/>
           </div>
           <div className="content">
-            {/* <Project/>
-            <Contact/> */}
+            <Project/>
+            {/* <Contact/> */}
           </div>
         </div>
       </div>

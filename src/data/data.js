@@ -1,6 +1,14 @@
 import flask from "../assets/flask.jpg";
 import vercel from "../assets/vercel.jpg";
 import pandas from "../assets/pandas.jpg";
+import jollyaudience from "../assets/jollyaudience.jpg";
+import ipl from "../assets/ipl.jpg";
+import lms from "../assets/lms.jpg";
+import bpcg from "../assets/bpcg.jpg";
+import todo from "../assets/todo.jpg";
+import wizlet from "../assets/wizlet.jpg";
+import notifier from "../assets/notifier.jpg";
+import spotify from "../assets/spotify.jpg";
 
 export const Bio = {
   name: "Abhishek S",
@@ -183,7 +191,7 @@ export const projects = [
     title: "Jolly Audience",
     description:
       "A tool that extracts happy and curious frames from videos, aiding professionals and media teams in creating posters and social media content.",
-    image: "",
+    image: jollyaudience,
     tags: ["React Js", "Flask", "OpenCV"],
     github: "https://github.com/abhi-s-03/Jolly-Audience",
   },
@@ -192,8 +200,8 @@ export const projects = [
     title: "IPL Win Probability Predictor",
     description:
       "Predicts the win% of teams in the 2nd innings based on the first innings and current scorecard.",
-    image: "",
-    tags: ["React Js", "Flask", "Scikit Learn"],
+    image: ipl,
+    tags: ["React Js", "Flask","Machine Learning", "Scikit Learn"],
     github: "https://github.com/abhi-s-03/ipl-win-predictor",
     demo: "https://ipl-win-predictor.vercel.app/",
   },
@@ -212,7 +220,7 @@ export const projects = [
     title: "Library Management System",
     description:
       "A library management system with a database of books and users. Users can borrow and return books.•	Successfully integrated key features like dashboard, book issue and return, authentication and book management.",
-    image: "",
+    image: lms,
     tags: ["React Js", "Node Js", "PostgreSQL"],
     github: "https://github.com/abhi-s-03/Library-Management-System",
   },
@@ -221,16 +229,16 @@ export const projects = [
     title: "Boilerplate Code Generator",
     description:
       "A tool that generates boilerplate code for components of websites, advanced code for machine learning algorithms through a convenient dropdown menu etc",
-    image: "",
+    image: bpcg,
     tags: ["React Js", "Flask", "OpenAI API"],
     github: "https://github.com/abhi-s-03/Boiler-Plate-Code-Generator",
   },
   {
     id: 5,
-    title: "TO-DO App",
+    title: "TODO App",
     description:
       "A simple to-do app with a calendar and search bar. Users can add, delete and edit tasks. Tasks are stored in firebase database.",
-    image: "",
+    image: todo,
     tags: ["React Js", "Firebase"],
     github: "https://github.com/abhi-s-03/ToDo",
     demo: "https://abhi-todo-app.netlify.app/",
@@ -240,7 +248,7 @@ export const projects = [
     title: "Wizlet",
     description:
       "A personal finance management app. Users can create an account to store their income and expenditure to get financial analytics. They can also set goals regarding thir expenditure. They can store their card and wallet details. Also goal can be set to limit their expense and increase the savings.",
-    image: "",
+    image: wizlet,
     tags: ["ElectronJS", "HTML", "CSS", "JavaScript", "Firebase"],
     github: "https://github.com/abhi-s-03/Wizlet",
   },
@@ -249,8 +257,8 @@ export const projects = [
     title: "Notifier",
     description:
       "A web app to send personal development and motivational notifications",
-    image: "",
-    tags: ["React Js", "Flask"],
+    image: notifier,
+    tags: ["React Js", "Flask","Engagespot API"],
     github: "https://github.com/abhi-s-03/Notifier",
   },
   {
@@ -259,9 +267,9 @@ export const projects = [
     date: "Dec 2020 - Jan 2021",
     description:
       "A Spotify clone made with HTML, CSS and JavaScript. Playlist and music play functionality is implemented.",
-    image: "",
+    image: spotify,
     tags: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/abhi-s-03/Music-Player-Spotify-Clone",
-    webapp: "https://abhi-s-03.github.io/Music-Player-Spotify-Clone/",
+    demo: "https://abhi-s-03.github.io/Music-Player-Spotify-Clone/",
   },
 ];

@@ -26,7 +26,7 @@ export default function Navbar() {
             <a href="#skill">Skills</a>
             <a href="#edu">Education</a>
             <a href="#exp">Experience</a>
-            <a href="/">Projects</a>
+            <a href="#project">Projects</a>
             <a href="/">Contact</a>
           </div>
           <div className="navbar-resume">
@@ -67,7 +67,7 @@ export default function Navbar() {
                 Experience
               </a>
               <a
-                href="/"
+                href="#project"
                 onClick={() => {
                   setIsOpen(!isOpen);
                 }}
