@@ -5,13 +5,13 @@
   position: relative;
   z-index: 1;
   align-items: center;
-  padding: 0px 0px 60px 0px;
+  padding: 0;
   @media (max-width: 960px) {
     padding: 0px;
   }
 }
 
-.edu-wrapper {
+.wrapper {
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -64,7 +64,7 @@
   flex-direction: column;
   gap: 12px;
   transition: all 0.3s ease-in-out;
-  border: 0.1px solid #854ce6;
+  border: 0.1px solid #306ee8;
   &:hover {
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
     transform: translateY(-5px);

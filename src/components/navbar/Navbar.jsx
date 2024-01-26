@@ -22,11 +22,12 @@ export default function Navbar() {
             />
           </div>
           <div className="navbar-items">
-            <a href="/">About</a>
-            <a href="/">Skills</a>
-            <a href="/">Education</a>
-            <a href="/">Experience</a>
+            <a href="#about">About</a>
+            <a href="#skill">Skills</a>
+            <a href="#edu">Education</a>
+            <a href="#exp">Experience</a>
             <a href="/">Projects</a>
+            <a href="/">Contact</a>
           </div>
           <div className="navbar-resume">
             <a href={Bio.resume}>Resume</a>
@@ -34,7 +35,7 @@ export default function Navbar() {
           {isOpen && (
             <div className="mobile-navbar-items">
               <a
-                href="/"
+                href="#about"
                 onClick={() => {
                   setIsOpen(!isOpen);
                 }}
@@ -42,7 +43,7 @@ export default function Navbar() {
                 About
               </a>
               <a
-                href="/"
+                href="#skill"
                 onClick={() => {
                   setIsOpen(!isOpen);
                 }}
@@ -50,7 +51,7 @@ export default function Navbar() {
                 Skills
               </a>
               <a
-                href="/"
+                href="#edu"
                 onClick={() => {
                   setIsOpen(!isOpen);
                 }}
@@ -58,7 +59,7 @@ export default function Navbar() {
                 Education
               </a>
               <a
-                href="/"
+                href="#exp"
                 onClick={() => {
                   setIsOpen(!isOpen);
                 }}
@@ -74,6 +75,14 @@ export default function Navbar() {
                 Projects
               </a>
               <a href={Bio.resume}>Resume</a>
+              <a
+                href="/"
+                onClick={() => {
+                  setIsOpen(!isOpen);
+                }}
+              >
+                Contact
+              </a>
             </div>
           )}
         </div>

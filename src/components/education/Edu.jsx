@@ -12,14 +12,14 @@ export default function Edu() {
   return (
     <>
       <div id="edu">
-        <div className="edu-wrapper">
+        <div className="wrapper">
           <div className="edu-title">Education</div>
           <div className="edu-content">
             <Timeline>
               {education.map((item) => (
                 <TimelineItem>
                   <TimelineContent sx={{ py: "12px", px: 2 }}>
-                    <div className="edu-card">
+                    <div className="edu-card" style={{border: '0.1px solid #854ce6'}}>
                       <div className="educard-top">
                         <div className="educard-img">
                           <img src={item.img} alt="" />
