@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.wrapper {
+.skill-wrapper {
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -97,7 +97,7 @@
   }
 }
 
-.skill-item img{
+.skill-item img {
   width: 24px;
   height: 24px;
 }

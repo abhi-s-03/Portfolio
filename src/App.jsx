@@ -2,6 +2,8 @@ import "./App.css";
 import Navbar from "./components/navbar/Navbar.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import Skill from "./components/skill/Skill.jsx";
+import Edu from "./components/education/Edu.jsx";
+
 function App() {
   return (
     <>
@@ -10,7 +12,8 @@ function App() {
         <div className="body">
           <Hero />
           <div className="content">
-            <Skill />            
+            <Skill />
+            <Edu />
           </div>
         </div>
       </div>

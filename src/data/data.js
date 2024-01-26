@@ -70,7 +70,7 @@ export const skills = [
     skills: [
       {
         name: "Flask",
-        image:flask,
+        image: flask,
       },
       {
         name: "Firebase",
@@ -88,7 +88,7 @@ export const skills = [
       },
       {
         name: "Pandas",
-        image:pandas,
+        image: pandas,
       },
     ],
   },
@@ -116,7 +116,7 @@ export const skills = [
       },
       {
         name: "Vercel",
-        image:vercel,
+        image: vercel,
       },
     ],
   },
@@ -155,7 +155,7 @@ export const education = [
     img: "https://www.cet.ac.in/wp-content/uploads/2018/09/cropped-CET-Emblom-transparent-2-e1536389478507.png",
     school: "College of Engineering Trivandrum",
     date: "November 2021 - Present",
-    grade: "9.54/10",
+    grade: "CGPA: 9.54/10",
     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at College of Engineering Trivandrum. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
@@ -165,7 +165,7 @@ export const education = [
     school: "St Thomas Central School, Trivandrum",
     date: "2021",
     desc: "Class 12th - CBSE Computer Science with Physics, Chemistry and Mathematics",
-    grade: "98.8%",
+    grade: "Percentage: 98.8%",
   },
   {
     id: 2,
@@ -173,7 +173,7 @@ export const education = [
     school: "St Thomas Central School, Trivandrum",
     date: "2019",
     desc: "Class 10th - CBSE",
-    grade: "98%",
+    grade: "Percentage: 98%",
   },
 ];
 

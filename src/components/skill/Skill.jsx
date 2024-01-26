@@ -5,7 +5,7 @@ export default function Skill() {
   return (
     <>
       <div id="skill">
-        <div className="wrapper">
+        <div className="skill-wrapper">
           <div className="skill-title">Skills</div>
           <div className="skill-container">
             {skills.map((skill) => (
@@ -14,7 +14,7 @@ export default function Skill() {
                 <div className="skill-list">
                   {skill.skills.map((item) => (
                     <div className="skill-item">
-                        <img src={item.image}></img>
+                      <img src={item.image}></img>
                       {item.name}
                     </div>
                   ))}
