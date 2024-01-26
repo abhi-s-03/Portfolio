@@ -60,7 +60,7 @@
 
 .navbar-items a {
   color: #f2f3f4;
-  font-weight: 501;
+  font-weight: 600;
   cursor: pointer;
   text-decoration: none;
 }
@@ -96,7 +96,7 @@
   color: #854ce6;
   cursor: pointer;
   padding: 0 20px;
-  font-weight: 501;
+  font-weight: 600;
   text-decoration: none;
   font-size: 16px;
   transition: all 0.6s ease-in-out;
@@ -140,7 +140,7 @@
 
 .mobile-navbar-items a{
   color: #f2f3f4;
-  font-weight: 501;
+  font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
