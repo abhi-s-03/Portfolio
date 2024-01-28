@@ -9,7 +9,8 @@
 
 .contact-desc {
   font-size: 18px;
-  text-align: center;
+  display: flex;
+  align-content: center;
   max-width: 600px;
   color: #b1b2b3;
   @media (max-width: 768px) {

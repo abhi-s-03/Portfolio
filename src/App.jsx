@@ -6,6 +6,7 @@ import Edu from "./components/education/Edu.jsx";
 import Exp from "./components/exp/Exp.jsx";
 import Project from "./components/project/Project.jsx";
 import Contact from "./components/contact/Contact.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           <div className="content">
             <Project/>
             <Contact/>
+          </div>
+          <div className="content">
+            <Footer/>
           </div>
         </div>
       </div>

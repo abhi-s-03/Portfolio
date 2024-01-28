@@ -34,8 +34,10 @@ export default function Contact() {
             Contact
           </div>
           <div className="contact-desc">
-            Feel free to contact me if you have any questions, offers,
-            oppurtunities or just want to say hi!
+            <span>
+              Feel free to contact me if you have any questions, offers,
+              oppurtunities or just want to say hi!
+            </span>
           </div>
           <form className="contact-form" onSubmit={handlesubmit} ref={form}>
             <div className="contact-title">Email Me</div>
