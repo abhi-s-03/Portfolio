@@ -3,6 +3,7 @@ import vercel from "../assets/vercel.jpg";
 import pandas from "../assets/pandas.jpg";
 import jollyaudience from "../assets/jollyaudience.jpg";
 import ipl from "../assets/ipl.jpg";
+import artmart from "../assets/artmart.jpg";
 import lms from "../assets/lms.jpg";
 import bpcg from "../assets/bpcg.jpg";
 import todo from "../assets/todo.jpg";
@@ -210,7 +211,7 @@ export const projects = [
     title: "ArtMart",
     description:
       "An e-commerce website for buying and selling art. Users can upload their art and sell it to other users.",
-    image: "",
+    image: artmart,
     tags: ["React Js", "Firebase"],
     github: "https://github.com/abhi-s-03/E-Commerce-website",
     demo: "https://artmart-omega.vercel.app/",

@@ -5,6 +5,7 @@ import Skill from "./components/skill/Skill.jsx";
 import Edu from "./components/education/Edu.jsx";
 import Exp from "./components/exp/Exp.jsx";
 import Project from "./components/project/Project.jsx";
+import Contact from "./components/contact/Contact.jsx";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           </div>
           <div className="content">
             <Project/>
-            {/* <Contact/> */}
+            <Contact/>
           </div>
         </div>
       </div>

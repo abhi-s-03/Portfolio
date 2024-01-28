@@ -27,7 +27,7 @@ export default function Navbar() {
             <a href="#edu">Education</a>
             <a href="#exp">Experience</a>
             <a href="#project">Projects</a>
-            <a href="/">Contact</a>
+            <a href="#contact">Contact</a>
           </div>
           <div className="navbar-resume">
             <a href={Bio.resume}>Resume</a>
@@ -74,15 +74,15 @@ export default function Navbar() {
               >
                 Projects
               </a>
-              <a href={Bio.resume}>Resume</a>
               <a
-                href="/"
+                href="#contact"
                 onClick={() => {
                   setIsOpen(!isOpen);
                 }}
               >
                 Contact
               </a>
+              <a href={Bio.resume}>Resume</a>
             </div>
           )}
         </div>
