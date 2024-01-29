@@ -2,15 +2,13 @@
   background: #191924;
   display: flex;
   justify-content: center;
-  position: relative;
   padding: 80px 30px;
   @media (max-width: 960px) {
-    padding: 66px 16px;
+    padding: 66px 16px 0 16px;
   }
   @media (max-width: 640) {
     padding: 32px 16px;
   }
-  z-index: 1;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 }
 
@@ -74,7 +72,7 @@
     text-align: center;
   }
   @media (max-width: 640px) {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 48px;
     margin-bottom: 16px;
   }
@@ -87,7 +85,9 @@
   color: #b1b2b3;
 
   @media (max-width: 960px) {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   @media (max-width: 640px) {

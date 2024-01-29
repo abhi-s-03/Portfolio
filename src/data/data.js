@@ -15,7 +15,7 @@ export const Bio = {
   name: "Abhishek S",
   roles: ["Front-end Developer", "ML Enthusiast", "Programmer"],
   description:
-    "I'm a passionate Computer Science student with a diverse skillset in frontend, backend, and ML. I thrive in collaborative environments and am eager to contribute to impactful projects.",
+    "I'm a passionate Computer Science student with a diverse skillset in Web Development and Machine Learning. I thrive in collaborative environments and am eager to contribute to impactful projects.",
   github: "https://github.com/abhi-s-03",
   resume:
     "https://drive.google.com/file/d/1jKycceGmhfWG-uoX1WjkshNqjVC_sYj2/view?usp=sharing",
@@ -220,7 +220,7 @@ export const projects = [
     id: 3,
     title: "Library Management System",
     description:
-      "A library management system with a database of books and users. Users can borrow and return books.•	Successfully integrated key features like dashboard, book issue and return, authentication and book management.",
+      "A library management system with a database of books and users. Integrated features like dashboard, book issue and return, authentication and book management.",
     image: lms,
     tags: ["React Js", "Node Js", "PostgreSQL"],
     github: "https://github.com/abhi-s-03/Library-Management-System",
@@ -248,7 +248,7 @@ export const projects = [
     id: 6,
     title: "Wizlet",
     description:
-      "A personal finance management app. Users can create an account to store their income and expenditure to get financial analytics. They can also set goals regarding thir expenditure. They can store their card and wallet details. Also goal can be set to limit their expense and increase the savings.",
+      "A personal finance management app limit their expense and increase the savings.",
     image: wizlet,
     tags: ["ElectronJS", "HTML", "CSS", "JavaScript", "Firebase"],
     github: "https://github.com/abhi-s-03/Wizlet",
