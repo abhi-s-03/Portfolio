@@ -26,7 +26,7 @@ export default function Exp() {
                     />
                     <TimelineConnector style={{ background: "#306EE8" }} />
                   </TimelineSeparator>
-                  <TimelineContent sx={{ py: "12px", px: 2 }}>
+                  <TimelineContent>
                     <div className="edu-card">
                       <div className="educard-top">
                         <div className="educard-body">

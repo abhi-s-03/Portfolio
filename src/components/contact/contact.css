@@ -13,6 +13,7 @@
   align-content: center;
   max-width: 600px;
   color: #b1b2b3;
+  padding: 15px;
   @media (max-width: 768px) {
     margin-top: 12px;
     font-size: 16px;
