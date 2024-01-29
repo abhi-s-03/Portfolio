@@ -1,11 +1,8 @@
 import "./navbar.css";
 import { DiCssdeck } from "react-icons/di";
-import { FaBars } from "react-icons/fa";
 import { Bio } from "../../data/data.js";
-import { useState } from "react";
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
   return (
     <>
       <div className="navbar">
@@ -13,13 +10,6 @@ export default function Navbar() {
           <div className="logo">
             <DiCssdeck size="3rem" id="white" />
             <span id="navbar-logo">Portfolio</span>
-          </div>
-          <div className="mobileicon">
-            <FaBars
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            />
           </div>
           <div className="navbar-items">
             <a href="#about">About</a>
@@ -32,59 +22,6 @@ export default function Navbar() {
           <div className="navbar-resume">
             <a href={Bio.resume}>Resume</a>
           </div>
-          {isOpen && (
-            <div className="mobile-navbar-items">
-              <a
-                href="#about"
-                onClick={() => {
-                  setIsOpen(!isOpen);
-                }}
-              >
-                About
-              </a>
-              <a
-                href="#skill"
-                onClick={() => {
-                  setIsOpen(!isOpen);
-                }}
-              >
-                Skills
-              </a>
-              <a
-                href="#edu"
-                onClick={() => {
-                  setIsOpen(!isOpen);
-                }}
-              >
-                Education
-              </a>
-              <a
-                href="#exp"
-                onClick={() => {
-                  setIsOpen(!isOpen);
-                }}
-              >
-                Experience
-              </a>
-              <a
-                href="#project"
-                onClick={() => {
-                  setIsOpen(!isOpen);
-                }}
-              >
-                Projects
-              </a>
-              <a
-                href="#contact"
-                onClick={() => {
-                  setIsOpen(!isOpen);
-                }}
-              >
-                Contact
-              </a>
-              <a href={Bio.resume}>Resume</a>
-            </div>
-          )}
         </div>
       </div>
     </>
