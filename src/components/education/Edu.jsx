@@ -18,8 +18,11 @@ export default function Edu() {
             <Timeline>
               {education.map((item) => (
                 <TimelineItem>
-                  <TimelineContent sx={{ py: "12px", px: 2 }}>
-                    <div className="edu-card" style={{border: '0.1px solid #854ce6'}}>
+                  <TimelineContent>
+                    <div
+                      className="edu-card"
+                      style={{ border: "0.1px solid #854ce6" }}
+                    >
                       <div className="educard-top">
                         <div className="educard-img">
                           <img src={item.img} alt="" />
@@ -31,12 +34,20 @@ export default function Edu() {
                         </div>
                       </div>
                       <div className="educard-grade">{item.grade}</div>
-                      <div className="educard-desc"><span>{item.desc}</span></div>
+                      <div className="educard-desc">
+                        <span>{item.desc}</span>
+                      </div>
                     </div>
                   </TimelineContent>
                   <TimelineSeparator>
-                    <TimelineDot variant="outlined" color="secondary" />
-                    <TimelineConnector style={{ background: "#854CE6" }} />
+                    <TimelineDot
+                      variant="outlined"
+                      color="secondary"
+                      style={{ marginRight: "20px" }}
+                    />
+                    <TimelineConnector
+                      style={{ background: "#854CE6", marginRight: "20px" }}
+                    />
                   </TimelineSeparator>
                 </TimelineItem>
               ))}
