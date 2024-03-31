@@ -64,6 +64,11 @@
   border-radius: 10px;
 }
 
+.tag:hover{
+  background-color: #854ce699;
+  color: #f2f3f4;
+}
+
 .project-body {
   width: 100%;
   display: flex;
