@@ -46,24 +46,28 @@ export default function Contact() {
               placeholder="Name"
               className="contact-input"
               name="from_name"
+              required
             />
             <input
               type="text"
               placeholder="Email"
               className="contact-input"
               name="from_email"
+              required
             />
             <input
               type="text"
               placeholder="Subject"
               className="contact-input"
               name="subject"
+              required
             />
             <textarea
               placeholder="Message"
               rows="4"
               className="contact-text"
               name="message"
+              required
             />
             <input type="submit" value="Send" className="contact-btn" />
           </form>
