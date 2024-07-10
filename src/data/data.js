@@ -1,6 +1,5 @@
 import flask from "../assets/flask.jpg";
 import vercel from "../assets/vercel.jpg";
-import pandas from "../assets/pandas.jpg";
 import jollyaudience from "../assets/jollyaudience.jpg";
 import ipl from "../assets/ipl.jpg";
 import artmart from "../assets/artmart.jpg";
@@ -10,10 +9,12 @@ import todo from "../assets/todo.jpg";
 import wizlet from "../assets/wizlet.jpg";
 import notifier from "../assets/notifier.jpg";
 import spotify from "../assets/spotify.jpg";
+import nextjs from "../assets/nextjs.png";
+import express from "../assets/express.png";
 
 export const Bio = {
   name: "Abhishek S",
-  roles: ["Front-end Developer", "ML Enthusiast", "Programmer"],
+  roles: ["Full Stack Developer", "ML Enthusiast", "Programmer"],
   description:
     "I'm a passionate Computer Science student with a diverse skillset in Web Development and Machine Learning. I thrive in collaborative environments and am eager to contribute to impactful projects.",
   github: "https://github.com/abhi-s-03",
@@ -43,10 +44,15 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
       },
       {
-        name: "React Js",
+        name: "React",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
       },
+      {
+        name: "Next.js",
+        image:
+          nextjs,
+      }
     ],
   },
   {
@@ -85,6 +91,10 @@ export const skills = [
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
+      {
+        name:"Express.js",
+        image: express,
+      }
     ],
   },
   {
@@ -95,19 +105,11 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
       },
-      {
-        name: "Pandas",
-        image: pandas,
-      },
     ],
   },
   {
     title: "Others",
     skills: [
-      {
-        name: "Git",
-        image: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
-      },
       {
         name: "GitHub",
         image:
@@ -117,11 +119,6 @@ export const skills = [
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
       },
       {
         name: "Vercel",
@@ -138,7 +135,7 @@ export const experiences = [
     company: "CS Association, CET Trivandrum",
     date: "January 2024 - Present",
     desc: "Developed and maintained association's website using ReactJS and Firebase.",
-    skills: ["ReactJS"],
+    skills: ["React"],
   },
   {
     id: 1,
@@ -146,7 +143,7 @@ export const experiences = [
     company: "EETI Foundation",
     date: "October 2023 - Present",
     desc: "Working on the frontend of the web application using ReactJS",
-    skills: ["ReactJS", "HTML", "CSS", "JavaScript"],
+    skills: ["React", "HTML", "CSS", "JavaScript"],
   },
   {
     id: 2,
@@ -154,7 +151,7 @@ export const experiences = [
     company: "Edtech Startup",
     date: "October 2023 - November 2023",
     desc: "Built the frontend of the web application using ReactJS",
-    skills: ["ReactJS", "HTML", "CSS", "JavaScript"],
+    skills: ["React", "HTML", "CSS", "JavaScript"],
   },
 ];
 
@@ -193,7 +190,7 @@ export const projects = [
     description:
       "A tool that extracts happy and curious frames from videos, aiding professionals and media teams in creating posters and social media content.",
     image: jollyaudience,
-    tags: ["React Js", "Flask", "OpenCV"],
+    tags: ["React", "Flask", "OpenCV"],
     github: "https://github.com/abhi-s-03/Jolly-Audience",
   },
   {
@@ -202,7 +199,7 @@ export const projects = [
     description:
       "Predicts the win% of teams in the 2nd innings based on the first innings and current scorecard.",
     image: ipl,
-    tags: ["React Js", "Flask","Machine Learning", "Scikit Learn"],
+    tags: ["React", "Flask","Machine Learning", "Scikit Learn"],
     github: "https://github.com/abhi-s-03/ipl-win-predictor",
     demo: "https://ipl-win-predictor.vercel.app/",
   },
@@ -212,7 +209,7 @@ export const projects = [
     description:
       "An e-commerce website for buying and selling art. Users can upload their art and sell it to other users.",
     image: artmart,
-    tags: ["React Js", "Firebase"],
+    tags: ["React", "Firebase"],
     github: "https://github.com/abhi-s-03/E-Commerce-website",
     demo: "https://artmart-omega.vercel.app/",
   },
@@ -222,7 +219,7 @@ export const projects = [
     description:
       "A library management system with a database of books and users. Integrated features like dashboard, book issue and return, authentication and book management.",
     image: lms,
-    tags: ["React Js", "Node Js", "PostgreSQL"],
+    tags: ["React", "Express.js", "PostgreSQL"],
     github: "https://github.com/abhi-s-03/Library-Management-System",
   },
   {
@@ -231,7 +228,7 @@ export const projects = [
     description:
       "A tool that generates boilerplate code for components of websites, advanced code for machine learning algorithms through a convenient dropdown menu etc",
     image: bpcg,
-    tags: ["React Js", "Flask", "OpenAI API"],
+    tags: ["React", "Flask", "OpenAI API"],
     github: "https://github.com/abhi-s-03/Boiler-Plate-Code-Generator",
   },
   {
@@ -240,7 +237,7 @@ export const projects = [
     description:
       "A simple to-do app with a calendar and search bar. Users can add, delete and edit tasks. Tasks are stored in firebase database.",
     image: todo,
-    tags: ["React Js", "Firebase"],
+    tags: ["React", "Firebase"],
     github: "https://github.com/abhi-s-03/ToDo",
     demo: "https://abhi-todo-app.netlify.app/",
   },
@@ -250,7 +247,7 @@ export const projects = [
     description:
       "A personal finance management app limit their expense and increase the savings.",
     image: wizlet,
-    tags: ["ElectronJS", "HTML", "CSS", "JavaScript", "Firebase"],
+    tags: ["ElectronJS", "Firebase"],
     github: "https://github.com/abhi-s-03/Wizlet",
   },
   {
@@ -259,7 +256,7 @@ export const projects = [
     description:
       "A web app to send personal development and motivational notifications",
     image: notifier,
-    tags: ["React Js", "Flask","Engagespot API"],
+    tags: ["React", "Flask","Engagespot API"],
     github: "https://github.com/abhi-s-03/Notifier",
   },
   {
