@@ -222,7 +222,7 @@ export const projects = [
         id: 5,
         title: "PDFPILOT-PRO",
         description:
-            "Application that enables users to upload multiple PDFs and ask questions based on their content. Additionally, users have the option to perform searches beyond the scope of the uploaded PDFs.",
+            "Application that enables users to upload multiple PDFs and ask questions based on their content. Users also have the option to perform searches beyond the scope of the uploaded PDFs.",
         image: pdfpilot,
         tags: ["Streamlit", "Python","Gemini API"],
         github: "https://github.com/abhi-s-03/PDFPilot-Pro",
