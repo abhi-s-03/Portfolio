@@ -10,14 +10,14 @@ export default function Project() {
             Projects
           </div>
           <div className="project-container">
-            {projects.map((item) => (
-              <div className="project-card">
+            {projects.map((item, index) => (
+              <div className="project-card" key={index}>
                 <div className="project-img">
-                  <img src={item.image} />
+                  <img src={item.image} alt={item.title} />
                 </div>
                 <div className="project-tag">
-                  {item.tags?.map((tag) => (
-                    <span className="tag">{tag}</span>
+                  {item.tags?.map((tag, index) => (
+                    <span className="tag" key={index}>{tag}</span>
                   ))}
                 </div>
                 <div className="project-body">

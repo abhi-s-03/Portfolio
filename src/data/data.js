@@ -5,13 +5,12 @@ import ipl from "../assets/ipl.jpg";
 import artmart from "../assets/artmart.jpg";
 import lms from "../assets/lms.jpg";
 import bpcg from "../assets/bpcg.jpg";
-import todo from "../assets/todo.jpg";
 import wizlet from "../assets/wizlet.jpg";
 import notifier from "../assets/notifier.jpg";
 import spotify from "../assets/spotify.jpg";
 import nextjs from "../assets/nextjs.png";
 import express from "../assets/express.png";
-import pdfpilot from "../assets/pdfpilot-pro.png";
+import pdfpilot from "../assets/pdfpilot.png";
 
 export const Bio = {
     name: "Abhishek S",
@@ -228,16 +227,6 @@ export const projects = [
         tags: ["Streamlit", "Python","Gemini API"],
         github: "https://github.com/abhi-s-03/PDFPilot-Pro",
         demo:"https://chatmultiplepdf.streamlit.app/",
-    },
-    {
-        id: 5,
-        title: "TODO App",
-        description:
-            "A simple to-do app with a calendar and search bar. Users can add, delete and edit tasks. Tasks are stored in firebase database.",
-        image: todo,
-        tags: ["React", "Firebase"],
-        github: "https://github.com/abhi-s-03/ToDo",
-        demo: "https://abhi-todo-app.netlify.app/",
     },
     {
         id: 6,
