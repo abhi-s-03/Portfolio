@@ -192,13 +192,12 @@ export const projects = [
     },
     {
         id: 2,
-        title: "ArtMart",
+        title: "Boilerplate Code Generator",
         description:
-            "An e-commerce website for buying and selling art. Users can upload their art and sell it to other users.",
-        image: artmart,
-        tags: ["React", "Firebase"],
-        github: "https://github.com/abhi-s-03/ArtMart",
-        demo: "https://artmart-omega.vercel.app/",
+            "A tool that generates boilerplate code for components of websites, advanced code for machine learning algorithms through a convenient dropdown menu etc",
+        image: bpcg,
+        tags: ["React", "Flask", "OpenAI API"],
+        github: "https://github.com/abhi-s-03/Boiler-Plate-Code-Generator",
     },
     {
         id: 3,
@@ -211,15 +210,6 @@ export const projects = [
     },
     {
         id: 4,
-        title: "Boilerplate Code Generator",
-        description:
-            "A tool that generates boilerplate code for components of websites, advanced code for machine learning algorithms through a convenient dropdown menu etc",
-        image: bpcg,
-        tags: ["React", "Flask", "OpenAI API"],
-        github: "https://github.com/abhi-s-03/Boiler-Plate-Code-Generator",
-    },
-    {
-        id: 5,
         title: "PDFPILOT-PRO",
         description:
             "Application that enables users to upload multiple PDFs and ask questions based on their content. Users also have the option to perform searches beyond the scope of the uploaded PDFs.",
@@ -228,6 +218,16 @@ export const projects = [
         github: "https://github.com/abhi-s-03/PDFPilot-Pro",
         demo:"https://chatmultiplepdf.streamlit.app/",
     },
+    {
+        id: 5,
+        title: "ArtMart",
+        description:
+            "An e-commerce website for buying and selling art. Users can upload their art and sell it to other users.",
+        image: artmart,
+        tags: ["React", "Firebase"],
+        github: "https://github.com/abhi-s-03/ArtMart",
+        demo: "https://artmart-omega.vercel.app/",
+    },    
     {
         id: 6,
         title: "Wizlet",
