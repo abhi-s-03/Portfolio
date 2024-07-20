@@ -16,8 +16,8 @@ export default function Exp() {
           <div className="edu-title">Experience</div>
           <div className="edu-content">
             <Timeline>
-              {experiences.map((item) => (
-                <TimelineItem>
+              {experiences.map((item,index) => (
+                <TimelineItem key={index}>
                   <TimelineSeparator>
                     <TimelineDot
                       variant="outlined"

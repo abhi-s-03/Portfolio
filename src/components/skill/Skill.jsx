@@ -8,12 +8,12 @@ export default function Skill() {
         <div className="skill-wrapper">
           <div className="skill-title">Skills</div>
           <div className="skill-container">
-            {skills.map((skill) => (
-              <div className="skill">
+            {skills.map((skill, index) => (
+              <div className="skill" key={index}>
                 <div className="skill-area">{skill.title}</div>
                 <div className="skill-list">
-                  {skill.skills.map((item) => (
-                    <div className="skill-item">
+                  {skill.skills.map((item, index) => (
+                    <div className="skill-item" key={index}>
                       <img src={item.image}></img>
                       {item.name}
                     </div>

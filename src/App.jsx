@@ -10,26 +10,24 @@ import Footer from "./components/footer/Footer.jsx";
 
 function App() {
   return (
-    <>
-      <div>
-        <Navbar />
-        <div className="body">
-          <Hero />
-          <div className="content">
-            <Skill />
-            <Edu />
-            <Exp/>
-          </div>
-          <div className="content">
-            <Project/>
-            <Contact/>
-          </div>
-          <div className="content">
-            <Footer/>
-          </div>
-        </div>
-      </div>
-    </>
+    <div>
+      <Navbar />
+      <main className="body">
+        <Hero />
+        <section className="content">
+          <Skill />
+          <Edu />
+          <Exp />
+        </section>
+        <section className="content">
+          <Project />
+          <Contact />
+        </section>
+        <footer className="content">
+          <Footer />
+        </footer>
+      </main>
+    </div>
   );
 }
 

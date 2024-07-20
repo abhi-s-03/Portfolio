@@ -16,8 +16,8 @@ export default function Edu() {
           <div className="edu-title">Education</div>
           <div className="edu-content">
             <Timeline>
-              {education.map((item) => (
-                <TimelineItem>
+              {education.map((item, index) => (
+                <TimelineItem key={index}>
                   <TimelineContent>
                     <div
                       className="edu-card"

@@ -9,13 +9,12 @@ export default function Contact() {
 
   const handlesubmit = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_bpe0a4k",
-        "template_b6kprm7",
-        form.current,
-        "gBGzS48B_PN18z8CG"
-      )
+    emailjs.sendForm(
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+      form.current,
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    )
       .then(
         (result) => {
           setOpen(true);
