@@ -1,6 +1,6 @@
 import flask from "../assets/flask.jpg";
 import vercel from "../assets/vercel.jpg";
-import jollyaudience from "../assets/jollyaudience.jpg";
+import jollyaudience from "../assets/jollyaudience.png";
 import ipl from "../assets/ipl.jpg";
 import artmart from "../assets/artmart.jpg";
 import lms from "../assets/lms.jpg";
