@@ -148,8 +148,8 @@ export const education = [
         img: "https://www.cet.ac.in/wp-content/uploads/2018/09/cropped-CET-Emblom-transparent-2-e1536389478507.png",
         school: "College of Engineering Trivandrum",
         date: "November 2021 - Present",
-        grade: "CGPA: 9.41/10",
-        desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at College of Engineering Trivandrum. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+        grade: "CGPA: 9.48/10",
+        desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at College of Engineering Trivandrum. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Formal Languages and Automata Theory, Artificial Intelligence, Machine Learning among others.",
         degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
     },
     {
