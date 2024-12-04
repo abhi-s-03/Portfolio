@@ -18,7 +18,7 @@ export const Bio = {
     description:
         "I'm a passionate Computer Science student with a diverse skillset in Web Development and Machine Learning. I thrive in collaborative environments and am eager to contribute to impactful projects.",
     github: "https://github.com/abhi-s-03",
-    resume: "https://drive.google.com/file/d/1PMyPOtW5TfmY0vcBNXsjp0D6fqrgtAMa/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/17_wYeOBsQawsN7e8qxVPh2T4tl5mPn4M/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/abhis03/",
     insta: "https://www.instagram.com/__abhisheks/",
 };
