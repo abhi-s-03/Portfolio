@@ -2,7 +2,6 @@ import flask from "../assets/flask.jpg";
 import vercel from "../assets/vercel.jpg";
 import jollyaudience from "../assets/jollyaudience.png";
 import ipl from "../assets/ipl.png";
-import artmart from "../assets/artmart.jpg";
 import lms from "../assets/lms.jpg";
 import bpcg from "../assets/bpcg.jpg";
 import wizlet from "../assets/wizlet.jpg";
@@ -220,34 +219,6 @@ export const projects = [
     },
     {
         id: 5,
-        title: "ArtMart",
-        description:
-            "An e-commerce website for buying and selling art. Users can upload their art and sell it to other users.",
-        image: artmart,
-        tags: ["React", "Firebase"],
-        github: "https://github.com/abhi-s-03/ArtMart",
-        demo: "https://artmart-omega.vercel.app/",
-    },
-    {
-        id: 6,
-        title: "Wizlet",
-        description:
-            "A personal finance management app limit their expense and increase the savings.",
-        image: wizlet,
-        tags: ["ElectronJS", "Firebase"],
-        github: "https://github.com/abhi-s-03/Wizlet",
-    },
-    {
-        id: 7,
-        title: "Notifier",
-        description:
-            "A web app to send personal development and motivational notifications",
-        image: notifier,
-        tags: ["React", "Flask", "Engagespot API"],
-        github: "https://github.com/abhi-s-03/Notifier",
-    },
-    {
-        id: 8,
         title: "Spotify Clone",
         date: "Dec 2020 - Jan 2021",
         description:
@@ -256,5 +227,23 @@ export const projects = [
         tags: ["HTML", "CSS", "JavaScript"],
         github: "https://github.com/abhi-s-03/Spotify-Clone",
         demo: "https://abhi-s-03.github.io/Spotify-Clone/",
+    },
+    {
+        id: 6,
+        title: "Notifier",
+        description:
+            "A web app to send personal development and motivational notifications",
+        image: notifier,
+        tags: ["React", "Flask", "Engagespot API"],
+        github: "https://github.com/abhi-s-03/Notifier",
+    },
+    {
+        id: 7,
+        title: "Wizlet",
+        description:
+            "A personal finance management app limit their expense and increase the savings.",
+        image: wizlet,
+        tags: ["ElectronJS", "Firebase"],
+        github: "https://github.com/abhi-s-03/Wizlet",
     },
 ];
