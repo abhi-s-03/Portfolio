@@ -1,7 +1,7 @@
 import flask from "../assets/flask.jpg";
 import vercel from "../assets/vercel.jpg";
 import jollyaudience from "../assets/jollyaudience.png";
-import ipl from "../assets/ipl.jpg";
+import ipl from "../assets/ipl.png";
 import artmart from "../assets/artmart.jpg";
 import lms from "../assets/lms.jpg";
 import bpcg from "../assets/bpcg.jpg";
@@ -14,7 +14,7 @@ import pdfpilot from "../assets/pdfpilot.png";
 
 export const Bio = {
     name: "Abhishek S",
-    roles: ["Full Stack Developer", "ML Enthusiast", "Programmer"],
+    roles: ["Full Stack Developer", "ML/AI Enthusiast", "Programmer"],
     description:
         "I'm a passionate Computer Science student with a diverse skillset in Web Development and Machine Learning. I thrive in collaborative environments and am eager to contribute to impactful projects.",
     github: "https://github.com/abhi-s-03",
@@ -192,12 +192,13 @@ export const projects = [
     },
     {
         id: 2,
-        title: "Boilerplate Code Generator",
+        title: "PDFPILOT-PRO",
         description:
-            "A tool that generates boilerplate code for components of websites, advanced code for machine learning algorithms through a convenient dropdown menu etc",
-        image: bpcg,
-        tags: ["React", "Flask", "OpenAI API"],
-        github: "https://github.com/abhi-s-03/Boiler-Plate-Code-Generator",
+            "Application that enables users to upload multiple PDFs and ask questions based on their content. Users also have the option to perform searches beyond the scope of the uploaded PDFs.",
+        image: pdfpilot,
+        tags: ["Streamlit", "Python", "Gemini API"],
+        github: "https://github.com/abhi-s-03/PDFPilot-Pro",
+        demo: "https://chatmultiplepdf.streamlit.app/",
     },
     {
         id: 3,
@@ -210,13 +211,12 @@ export const projects = [
     },
     {
         id: 4,
-        title: "PDFPILOT-PRO",
+        title: "Boilerplate Code Generator",
         description:
-            "Application that enables users to upload multiple PDFs and ask questions based on their content. Users also have the option to perform searches beyond the scope of the uploaded PDFs.",
-        image: pdfpilot,
-        tags: ["Streamlit", "Python","Gemini API"],
-        github: "https://github.com/abhi-s-03/PDFPilot-Pro",
-        demo:"https://chatmultiplepdf.streamlit.app/",
+            "A tool that generates boilerplate code for components of websites, advanced code for machine learning algorithms through a convenient dropdown menu etc",
+        image: bpcg,
+        tags: ["React", "Flask", "OpenAI API"],
+        github: "https://github.com/abhi-s-03/Boiler-Plate-Code-Generator",
     },
     {
         id: 5,
@@ -227,7 +227,7 @@ export const projects = [
         tags: ["React", "Firebase"],
         github: "https://github.com/abhi-s-03/ArtMart",
         demo: "https://artmart-omega.vercel.app/",
-    },    
+    },
     {
         id: 6,
         title: "Wizlet",
