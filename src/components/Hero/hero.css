@@ -4,10 +4,11 @@
   -webkit-backdrop-filter: blur(12px);
   display: flex;
   justify-content: center;
-  padding: 100px 30px;
+  padding: 100px 30px 80px 30px;
   position: relative;
   overflow: hidden;
   z-index: 1;
+  margin-bottom: 0;
 }
 
 .hero-container::before {
