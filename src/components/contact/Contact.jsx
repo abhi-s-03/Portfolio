@@ -35,7 +35,7 @@ export default function Contact() {
           <div className="contact-desc">
             <span>
               Feel free to contact me if you have any questions, offers,
-              oppurtunities or just want to say hi!
+              oppurtunities or just want to say hi👋
             </span>
           </div>
           <form className="contact-form" onSubmit={handlesubmit} ref={form}>
