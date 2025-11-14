@@ -1,51 +1,31 @@
 import "./exp.css";
-import {
-  Timeline,
-  TimelineItem,
-  TimelineSeparator,
-  TimelineConnector,
-  TimelineContent,
-  TimelineDot,
-} from "@mui/lab";
 import { experiences } from "../../data/data.js";
-export default function Exp() {
+
+export default function Experience() {
   return (
-    <>
-      <div id="exp">
-        <div className="wrapper">
-          <div className="edu-title">Experience</div>
-          <div className="edu-content">
-            <Timeline>
-              {experiences.map((item,index) => (
-                <TimelineItem key={index}>
-                  <TimelineSeparator>
-                    <TimelineDot
-                      variant="outlined"
-                      color="primary"
-                      style={{ borderColor: "#00bfff" }}
-                    />
-                    <TimelineConnector style={{ background: "#306EE8" }} />
-                  </TimelineSeparator>
-                  <TimelineContent>
-                    <div className="edu-card">
-                      <div className="educard-top">
-                        <div className="educard-body">
-                          <div className="educard-name">{item.company}</div>
-                          <div className="educard-degree">{item.role}</div>
-                          <div className="educard-date">{item.date}</div>
-                        </div>
-                      </div>
-                      <div className="educard-desc">
-                        <span>{item.desc}</span>
-                      </div>
-                    </div>
-                  </TimelineContent>
-                </TimelineItem>
-              ))}
-            </Timeline>
+    <section id="experience" className="experience-section">
+      <h2 className="section-title">Professional Experience</h2>
+      <div className="experience-container">
+        {experiences.map((exp, index) => (
+          <div key={index} className="experience-item">
+            <div className="experience-header">
+              <div className="experience-company">{exp.company}</div>
+              <div className="experience-date">{exp.date}</div>
+            </div>
+            <h3 className="experience-role">{exp.role}</h3>
+            {exp.desc && <p className="experience-desc">{exp.desc}</p>}
+            {exp.skills && (
+              <div className="experience-skills">
+                {exp.skills.map((skill, i) => (
+                  <span key={i} className="skill-tag">
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            )}
           </div>
-        </div>
+        ))}
       </div>
-    </>
+    </section>
   );
 }

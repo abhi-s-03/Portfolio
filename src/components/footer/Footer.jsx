@@ -20,7 +20,7 @@ export default function Footer() {
             <GitHubIcon />
           </a>
         </div>
-        <div className="copy">&copy; 2024 Abhishek S</div>
+        <div className="copy">&copy; 2025 Abhishek S</div>
       </div>
     </>
   );

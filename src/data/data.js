@@ -4,18 +4,19 @@ import jollyaudience from "../assets/jollyaudience.png";
 import ipl from "../assets/ipl.png";
 import lms from "../assets/lms.jpg";
 import bpcg from "../assets/bpcg.jpg";
-import wizlet from "../assets/wizlet.jpg";
-import notifier from "../assets/notifier.jpg";
 import spotify from "../assets/spotify.jpg";
 import nextjs from "../assets/nextjs.png";
 import express from "../assets/express.png";
 import pdfpilot from "../assets/pdfpilot.png";
+import aws from "../assets/aws-svgrepo-com.svg";
+import cursor from "../assets/cursor.jpeg";
+import windsurf from "../assets/windsurf.png";
 
 export const Bio = {
     name: "Abhishek S",
-    roles: ["Full Stack Developer", "ML/AI Enthusiast", "Programmer"],
+    roles: ["Software Engineer", "AI Enthusiast"],
     description:
-        "I'm a passionate Computer Science student with a diverse skillset in Web Development and Machine Learning. I thrive in collaborative environments and am eager to contribute to impactful projects.",
+        "I am a software engineer with a passion for AI and machine learning. I am currently working as a software engineer at Cloudwick Technologies.",
     github: "https://github.com/abhi-s-03",
     resume: "https://drive.google.com/file/d/17_wYeOBsQawsN7e8qxVPh2T4tl5mPn4M/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/abhis03/",
@@ -45,23 +46,40 @@ export const skills = [
             {
                 name: "Next.js",
                 image: nextjs,
+            }
+        ],
+    },
+    {
+        title: "Backend",
+        skills: [
+            {
+                name: "Express.js",
+                image: express,
             },
+            {
+                name: "Python",
+                image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+            },
+            {
+                name: "Flask",
+                image: flask,
+            }
         ],
     },
     {
         title: "Programming Languages",
         skills: [
             {
-                name: "C",
-                image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
+                name: "Python",
+                image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
             },
             {
                 name: "C++",
                 image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
             },
             {
-                name: "Python",
-                image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+                name: "C",
+                image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
             },
             {
                 name: "Java",
@@ -70,45 +88,65 @@ export const skills = [
         ],
     },
     {
-        title: "Backend",
+        title: "Cloud & Databases",
         skills: [
             {
-                name: "Flask",
-                image: flask,
+                name: "AWS",
+                image: aws,
             },
             {
-                name: "Firebase",
-                image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+                name: "MongoDB",
+                image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
             },
             {
-                name: "Express.js",
-                image: express,
+                name:"MySQL",
+                image:"https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
             },
+            {
+                name: "PostgreSQL",
+                image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
+            }
         ],
     },
     {
         title: "Machine Learning",
         skills: [
             {
-                name: "Scikit Learn",
+                name: "Scikit-learn",
                 image: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+            },
+            {
+                name: "Pandas",
+                image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg",
+            },
+            {
+                name: "NumPy",
+                image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg",
             },
         ],
     },
     {
-        title: "Others",
+        title: "Tools & Platforms",
         skills: [
+            {
+                name: "Git",
+                image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
+            },
             {
                 name: "GitHub",
                 image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
             },
             {
                 name: "VS Code",
-                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png",
             },
             {
-                name: "Vercel",
-                image: vercel,
+                name: "Cursor",
+                image: cursor,
+            },
+            {
+                name: "Windsurf",
+                image: windsurf,
             },
         ],
     },
@@ -117,11 +155,11 @@ export const skills = [
 export const experiences = [
     {
         id: 0,
-        role: "Web Developer",
-        company: "CS Association, CET Trivandrum",
-        date: "January 2024 - Present",
-        desc: "Developed and maintained association's website using ReactJS and Firebase.",
-        skills: ["React"],
+        role: "Software Engineer",
+        company: "Cloudwick Technologies",
+        date: "August 2025 - Present",
+        desc: "",
+        skills: ["AWS", "Python"],
     },
     {
         id: 1,
@@ -227,23 +265,5 @@ export const projects = [
         tags: ["HTML", "CSS", "JavaScript"],
         github: "https://github.com/abhi-s-03/Spotify-Clone",
         demo: "https://abhi-s-03.github.io/Spotify-Clone/",
-    },
-    {
-        id: 6,
-        title: "Notifier",
-        description:
-            "A web app to send personal development and motivational notifications",
-        image: notifier,
-        tags: ["React", "Flask", "Engagespot API"],
-        github: "https://github.com/abhi-s-03/Notifier",
-    },
-    {
-        id: 7,
-        title: "Wizlet",
-        description:
-            "A personal finance management app limit their expense and increase the savings.",
-        image: wizlet,
-        tags: ["ElectronJS", "Firebase"],
-        github: "https://github.com/abhi-s-03/Wizlet",
-    },
+    }
 ];

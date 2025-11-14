@@ -10,22 +10,22 @@ import Footer from "./components/footer/Footer.jsx";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Navbar />
       <main className="body">
         <Hero />
         <section className="content">
           <Skill />
-          <Edu />
           <Exp />
         </section>
         <section className="content">
           <Project />
+        </section>
+        <section className="content">
+          <Edu />
           <Contact />
         </section>
-        <footer className="content">
-          <Footer />
-        </footer>
+        <Footer />
       </main>
     </div>
   );

@@ -1,15 +1,37 @@
 .hero-container {
-  background: #191924;
+  background: rgba(25, 25, 36, 0.5);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   display: flex;
   justify-content: center;
-  padding: 80px 30px;
-  @media (max-width: 960px) {
-    padding: 66px 16px 0 16px;
+  padding: 100px 30px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.hero-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(133, 76, 230, 0.1), rgba(0, 0, 0, 0));
+  z-index: -1;
+  opacity: 0.5;
+}
+
+@media (max-width: 960px) {
+  .hero-container {
+    padding: 80px 16px 0 16px;
   }
-  @media (max-width: 640) {
-    padding: 32px 16px;
+}
+
+@media (max-width: 640px) {
+  .hero-container {
+    padding: 60px 16px 40px 16px;
   }
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 }
 
 .hero-info {
