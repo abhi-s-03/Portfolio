@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5rem 2rem;
+  padding: var(--spacing-3xl, 5rem) var(--spacing-lg, 2rem);
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -46,14 +46,19 @@
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  background: var(--glass-bg, rgba(26, 26, 36, 0.7));
-  padding: 2.5rem;
-  border-radius: var(--radius-md, 12px);
-  box-shadow: var(--glass-shadow, 0 8px 32px rgba(0, 0, 0, 0.3));
-  border: 1px solid var(--glass-border, rgba(255, 255, 255, 0.08));
-  backdrop-filter: blur(var(--glass-blur, 20px));
-  -webkit-backdrop-filter: blur(var(--glass-blur, 20px));
-  gap: 1.25rem;
+  background: var(--glass-bg);
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-md);
+  box-shadow: var(--glass-shadow);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  gap: var(--spacing-md);
+  transition: var(--transition-smooth);
+}
+
+.contact-form:hover {
+  border-color: var(--glass-border-hover);
 }
 
 .contact-title {
@@ -70,18 +75,19 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   outline: none;
   font-size: 1rem;
-  color: #f2f3f4;
-  border-radius: 8px;
+  color: var(--text-primary);
+  border-radius: var(--radius-sm);
   padding: 0.875rem 1rem;
-  transition: all 0.3s ease;
+  transition: var(--transition-smooth);
   font-family: inherit;
 }
 
 .contact-input:focus,
 .contact-text:focus {
-  border-color: #854ce6;
+  border-color: var(--primary);
   background-color: rgba(255, 255, 255, 0.08);
-  box-shadow: 0 0 0 3px rgba(133, 76, 230, 0.1);
+  box-shadow: 0 0 0 3px rgba(133, 76, 230, 0.15);
+  transform: translateY(-1px);
 }
 
 .contact-text {
@@ -93,26 +99,27 @@
   width: 100%;
   text-decoration: none;
   text-align: center;
-  background: linear-gradient(135deg, #854ce6 0%, #9a6cef 100%);
-  padding: 0.875rem 1.5rem;
-  border-radius: 8px;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+  padding: 1rem 1.5rem;
+  border-radius: var(--radius-sm);
   border: none;
   color: #ffffff;
   font-size: 1.05rem;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.3s ease;
-  margin-top: 0.5rem;
+  transition: var(--transition-smooth);
+  margin-top: var(--spacing-xs);
+  box-shadow: 0 4px 12px rgba(133, 76, 230, 0.3);
 }
 
 .contact-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(133, 76, 230, 0.4);
-  background: linear-gradient(135deg, #7c3aed 0%, #854ce6 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(133, 76, 230, 0.5);
+  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
 }
 
 .contact-btn:active {
-  transform: translateY(0);
+  transform: translateY(-1px);
 }
 
 @media (max-width: 768px) {

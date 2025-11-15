@@ -1,5 +1,5 @@
 #project {
-  padding: 5rem 2rem;
+  padding: var(--spacing-3xl, 5rem) var(--spacing-lg, 2rem);
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -47,16 +47,16 @@
 
 /* Project Card */
 .project-card {
-  background: var(--glass-bg, rgba(26, 26, 36, 0.7));
-  border-radius: var(--radius-md, 12px);
+  background: var(--glass-bg);
+  border-radius: var(--radius-md);
   overflow: hidden;
-  transition: var(--transition-smooth, all 0.3s cubic-bezier(0.4, 0, 0.2, 1));
+  transition: var(--transition-smooth);
   display: flex;
   flex-direction: column;
-  border: 1px solid var(--glass-border, rgba(255, 255, 255, 0.08));
-  backdrop-filter: blur(var(--glass-blur, 20px));
-  -webkit-backdrop-filter: blur(var(--glass-blur, 20px));
-  box-shadow: var(--glass-shadow, 0 8px 32px rgba(0, 0, 0, 0.3));
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  box-shadow: var(--glass-shadow);
   width: 100%;
   max-width: 380px;
   height: 100%;
@@ -64,8 +64,8 @@
 
 .project-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 15px 40px rgba(133, 76, 230, 0.35);
-  border-color: rgba(133, 76, 230, 0.3);
+  box-shadow: var(--glass-shadow-hover);
+  border-color: var(--glass-border-hover);
 }
 
 /* Project Image */
@@ -84,7 +84,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.5s ease;
+  transition: var(--transition-smooth);
 }
 
 .project-card:hover .project-img img {
@@ -104,14 +104,14 @@
   font-weight: 500;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
-  transition: all 0.2s ease;
-  background: rgba(99, 102, 241, 0.12);
-  color: #a5b4fc;
-  border: 1px solid rgba(99, 102, 241, 0.25);
+  transition: var(--transition-fast);
+  background: rgba(133, 76, 230, 0.12);
+  color: var(--accent);
+  border: 1px solid rgba(133, 76, 230, 0.25);
 }
 
 .tag:hover {
-  background: rgba(99, 102, 241, 0.2);
+  background: rgba(133, 76, 230, 0.2);
   transform: translateY(-2px);
 }
 
@@ -159,12 +159,12 @@
   align-items: center;
   justify-content: center;
   padding: 0.7rem 1rem;
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   font-size: 0.9rem;
   font-weight: 600;
   text-align: center;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: var(--transition-smooth);
   width: 100%;
 }
 
