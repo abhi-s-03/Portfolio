@@ -15,7 +15,7 @@ export const Bio = {
     name: "Abhishek S",
     roles: ["Software Engineer", "AI Enthusiast"],
     description:
-        "I am a software engineer with a passion for AI and machine learning. I am currently working as a software engineer at Cloudwick Technologies.",
+        "I am a passionate software engineer specializing in AI and cloud technologies. With hands-on experience in AWS services including Bedrock, Lambda, and DynamoDB, I build scalable and intelligent solutions.",
     github: "https://github.com/abhi-s-03",
     resume: "https://drive.google.com/file/d/17_wYeOBsQawsN7e8qxVPh2T4tl5mPn4M/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/abhis03/",
@@ -154,28 +154,20 @@ export const skills = [
 export const experiences = [
     {
         id: 0,
-        role: "Software Engineer",
+        role: "Software Engineer 1",
         company: "Cloudwick Technologies",
         date: "August 2025 - Present",
-        desc: "",
-        skills: ["AWS", "Python"],
+        desc: "As a Software Engineer at Cloudwick Technologies, I design and implement cloud-native solutions using AWS services. My responsibilities include developing and maintaining serverless applications with AWS Lambda and implementing AI solutions. I work extensively with AWS Bedrock for foundation models, DynamoDB for NoSQL database needs, and various other AWS services to build scalable and reliable systems.",
+        skills: ["AWS", "Python", "AI", "Agents"],
     },
     {
         id: 1,
-        role: "Web Developer",
-        company: "EETI Foundation",
-        date: "October 2023 - Present",
-        desc: "Working on the frontend of the web application using ReactJS",
-        skills: ["React", "HTML", "CSS", "JavaScript"],
-    },
-    {
-        id: 2,
-        role: "Web Developer",
-        company: "Edtech Startup",
-        date: "October 2023 - November 2023",
-        desc: "Built the frontend of the web application using ReactJS",
-        skills: ["React", "HTML", "CSS", "JavaScript"],
-    },
+        role: "Software Engineer Intern",
+        company: "Cloudwick Technologies",
+        date: "January 2025 - August 2025",
+        desc: "During my internship, I contributed to the development of agentic AI solutions including an Agentic Newsletter Creation system and an Agentic Workbench application. Gained hands-on experience with AWS services, Python development, and Linux system administration. Worked on implementing GenAI features and optimizing AI workflows.",
+        skills: ["AWS", "Python", "Linux", "Agentic AI", "GenAI"],
+    }
 ];
 
 export const education = [
@@ -183,9 +175,9 @@ export const education = [
         id: 0,
         img: "https://www.cet.ac.in/wp-content/uploads/2018/09/cropped-CET-Emblom-transparent-2-e1536389478507.png",
         school: "College of Engineering Trivandrum",
-        date: "November 2021 - Present",
-        grade: "CGPA: 9.48/10",
-        desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at College of Engineering Trivandrum. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Formal Languages and Automata Theory, Artificial Intelligence, Machine Learning among others.",
+        date: "November 2021 - June 2025",
+        grade: "CGPA: 9.47/10",
+        desc: "I completed my Bachelor's degree in Computer Science and Engineering from College of Engineering Trivandrum. The comprehensive curriculum covered Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Formal Languages and Automata Theory, Artificial Intelligence, and Machine Learning. This strong academic foundation has been instrumental in my professional work with cloud technologies and AI solutions.",
         degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
     },
     {
