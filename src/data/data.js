@@ -10,6 +10,7 @@ import pdfpilot from "../assets/pdfpilot.png";
 import aws from "../assets/aws-svgrepo-com.svg";
 import cursor from "../assets/cursor.jpeg";
 import windsurf from "../assets/windsurf.png";
+import bitbucket from "../assets/BitBucket.svg";
 
 export const Bio = {
     name: "Abhishek S",
@@ -134,6 +135,10 @@ export const skills = [
             {
                 name: "GitHub",
                 image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+            },
+            {
+                name : "BitBucket",
+                image : bitbucket,
             },
             {
                 name: "VS Code",
