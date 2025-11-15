@@ -1,6 +1,7 @@
 #about {
   width: 100%;
   padding: var(--spacing-3xl, 5rem) 0 var(--spacing-xl, 3rem);
+  padding-bottom: 0;
   display: flex;
   justify-content: center;
   position: relative;

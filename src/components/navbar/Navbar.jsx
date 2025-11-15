@@ -14,9 +14,10 @@ export default function Navbar() {
           <div className="navbar-items">
             <a href="#about">About</a>
             <a href="#skill">Skills</a>
-            <a href="#edu">Education</a>
             <a href="#exp">Experience</a>
             <a href="#project">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#edu">Education</a>
             <a href="#contact">Contact</a>
           </div>
           <div className="navbar-resume">
