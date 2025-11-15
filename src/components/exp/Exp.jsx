@@ -3,7 +3,7 @@ import { experiences } from "../../data/data.js";
 
 export default function Experience() {
   return (
-    <section id="experience" className="experience-section">
+    <section id="exp" className="experience-section">
       <h2 className="section-title">Professional Experience</h2>
       <div className="experience-container">
         {experiences.map((exp, index) => (

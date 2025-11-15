@@ -1,5 +1,4 @@
 import flask from "../assets/flask.jpg";
-import vercel from "../assets/vercel.jpg";
 import jollyaudience from "../assets/jollyaudience.png";
 import ipl from "../assets/ipl.png";
 import lms from "../assets/lms.jpg";
