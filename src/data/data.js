@@ -56,7 +56,7 @@ export const skills = [
         skills: [
             { name: "AWS", image: aws },
             { name: "MongoDB", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" },
-            { name: "MySQL", image:"https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" },
+            { name: "MySQL", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" },
             { name: "PostgreSQL", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" }
         ],
     },
@@ -103,7 +103,7 @@ export const experiences = [
 export const certifications = [
     {
         id: 0,
-        title: "AWS Certified Solutions Architect - Professional",
+        title: "AWS Certified Solutions Architect - Associate",
         issuer: "Amazon Web Services (AWS)",
         date: "June 2025 - June 2028",
         credentialUrl: "https://www.credly.com/badges/fec46ad8-f5b8-4be8-9125-aba27e7fa472/public_url",
@@ -113,7 +113,7 @@ export const certifications = [
     },
     {
         id: 1,
-        title: "AWS Certified Developer – Associate",
+        title: "AWS Certified Developer - Associate",
         issuer: "Amazon Web Services (AWS)",
         date: "July 2025 - July 2028",
         credentialUrl: "https://www.credly.com/badges/fa203b09-4e39-48c6-8296-4b849ef516e2/public_url",
